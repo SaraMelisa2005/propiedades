@@ -70,8 +70,42 @@
     background-size: 12px 50px; */
      /*correr con ejes*/
      margin:auto;  /*centra*/
-     opacity: 0.5; /*transparencia*/
+     opacity: 1.5; /*transparencia*/
      box-shadow: 0px 0px 10px 5px pink; /*sombra*/
     
+}
+.contenido{
+    border:2px solid blue;
+    width: 80vw;
+    height: 50px;
+    margin: auto;
+    position: relative;
+
+}
+.div1{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: red;
+    position: fixed;
+    top:0px;
+    left: 0px;
+}
+.div2, .div3 {/*se llaman dos clases al mismo tiempo*/
+     width: 150px;
+    height: 150px;
+    background-color:blue;
+
+}
+.div2{
+    /*las dos de abajo no funcionan sin las de arriba*/
+    position:absolute;
+    top:0px;
+    right: 0px;
+}
+.div3{
+    background-color:blueviolet;
+    position:sticky
+    top 20px;
 }
 
