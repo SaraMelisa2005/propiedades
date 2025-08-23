@@ -77,7 +77,7 @@
 .contenido{
     border:2px solid blue;
     width: 80vw;
-    height: 50px;
+    height: 80vh;
     margin: auto;
     position: relative;
 
@@ -123,3 +123,39 @@
       /*distribuye el espacio vertical*/
       justify-content: space-between;
 }
+.grid{
+    display: grid;
+grid-template-columns: 1fr,2fr,1fr;/*cantidad de columnas */
+grid-template-rows: 1fr,1fr,1fr,1fr;/*cantidad de filas*/
+grid-template-areas: "nav head head"/*cada comilla doble es una fila*/
+"nav sect sect"
+"nav sect sect"
+"foot foot ." ;/*el punto representa el vacio*/
+ /*especificar el nombre de las etiquetas*/
+}
+ .grid header{
+    background-color: lightblue;
+    width: 100%;
+    height: 100%;
+    grid-area: head;
+ }
+  .grid nav{
+    background-color: lightcoral;
+    width: 100%;
+    height: 100%;
+    grid-area: nav;
+ }
+  .grid section{
+    background-color: lightcyan;
+    width: 100%;
+    height: 100%;
+    grid-area: sect;
+ }
+  .grid footer{
+    background-color: lightgrey;
+    width: 100%;
+    height: 100%;
+    grid-area: foot;
+ }
+
+
