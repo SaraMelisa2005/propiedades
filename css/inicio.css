@@ -48,5 +48,30 @@
  /*radios por esquinas*/
  border-top-left-radius: 0px;
  border-bottom-left-radius:0px;
+ 
+}
+.circulo{
+    width: 250px;
+    height: 250px;
+    border:1px solid green;
+    border-radius: 50%;
+    /*hacen lo mismo*/
+    background: lightgreen;
+    background-color: greenyellow;
+    /*imagen dentro del circulo*/
+    background-image: url('../recursos/imagencss.webp');
+    background-size: 50px;
+    /*para que no se repita*/
+    background-repeat: no-repeat;
+    background-size: 100%;
+    /*funciona igual que el de arriba*/
+    /* background-size: cover;
+     /*alto y ancho
+    background-size: 12px 50px; */
+     /*correr con ejes*/
+     margin:auto;  /*centra*/
+     opacity: 0.5; /*transparencia*/
+     box-shadow: 0px 0px 10px 5px pink; /*sombra*/
+    
 }
 
