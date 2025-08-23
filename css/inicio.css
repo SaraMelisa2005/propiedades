@@ -31,6 +31,22 @@
      margin-left :5px ;
       margin-right :5px ;
       
- padding: 25px;  
+ padding: 25px;  /*siempre que hay un margin se hacen padding para que se ajusten*/
+ /*bordes*/
+ border-color: blue;
+ border-width: 5px;
+ border-style: solid;
+ border-style: double;
+ border-style: dotted;
+ /*version corta de las tres ultimas*/
+ border:10px solid red;
+ /*redondear esquinas*/
+ border-radius: 16px;
+ /*modificar una linea */
+ border-left: red;
+ border-left-width: 5px;
+ /*radios por esquinas*/
+ border-top-left-radius: 0px;
+ border-bottom-left-radius:0px;
 }
 
