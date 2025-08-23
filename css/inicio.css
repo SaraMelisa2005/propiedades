@@ -108,4 +108,18 @@
     position:sticky
     top 20px;
 }
-
+.div4{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: red;
+}
+.flex{
+    flex-direction: row;
+    flex-wrap: wrap;
+     /*alinea*/
+    align-items: center;
+     /*distribuye el espacio horizontal*/
+      /*distribuye el espacio vertical*/
+      justify-content: space-between;
+}
