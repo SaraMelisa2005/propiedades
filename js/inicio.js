@@ -65,3 +65,52 @@ for (let numero in numeros){
          console.log(numero,'impar');
     }
 }
+console.log('while----------------');
+let index =0;
+while(index< numeros.length){
+    const mod=numeros[index]%2;
+    if(mod ==0){
+        console.log(numeros [index],'par');
+    }else{
+         console.log(numeros [index],'impar');
+    }
+    index++;
+}
+console.log(' do while----------------');
+index =0;
+do{
+
+     const mod=numeros %2;
+    if(mod ==0){
+        console.log(numero,'par');
+    }else{
+         console.log(numero,'impar');
+    }
+    index++;
+}while(index< numeros.length);
+//valor,posicion
+console.log('foreach----------------');
+numeros.forEach((val,pos)=>{
+console.log(pos,";",val);
+
+});
+//estructoras de control ifelse y switch
+if(numeros[0]<0){
+    //codigo
+}else if(numeros[0]<5){
+    //codigo
+}else{
+
+}
+//switch
+const categoria ='a';
+switch(categoria){
+    case 'a':
+        //codigo
+        break;
+    case 'b':
+        break;
+        default:
+            //codigo
+        break;
+}

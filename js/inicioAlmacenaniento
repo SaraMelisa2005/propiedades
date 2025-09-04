@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>ejemplo de almacenamiento en front</h1>
+    <form name ="multiplicarFrom">
+        <fieldset>
+            <legend>multiplicar</legend>
+            <input type="number" name="factor1">
+            <b>x</b>
+            <input type="number" name="factor2">
+            <button type="submit">calcular</button>
+
+        </fieldset>
+    </form>
+    <h2 id="resultado"></h2>
+    <script src="js/local.js"></script>
+</body>
+
+</html>
